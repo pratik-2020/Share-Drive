@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+}
+.app{
+  /*position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 35%;
+  left: 35%;
+  border: 1px solid white;*/
+  background-color: #3b0b05;
+  height: 100vh;
+  object-fit: contain;
+}
+.app__header{
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  font-size: 5em;
+  color: aliceblue;
+  object-fit: contain;
+}
+.app__cardview{
+  position: absolute;
+  border: 1px solid white;
+  top: 40%;
+  left: 35%;
+  height: 35vh;
+  width: 50vh;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.sender__button{
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  width: 30%;
+  height: 20%;
+  border-radius: 20px;
+  cursor: pointer;
+  object-fit: contain;
+}
+.reciever__button{
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  width: 30%;
+  height: 20%;
+  border-radius: 20px;
+  cursor: pointer;
+  object-fit: contain;
+}

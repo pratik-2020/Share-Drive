@@ -1,0 +1,7 @@
+.home__compionent{
+    top: 50%;
+    left: 50%;
+    padding-left: 10%;
+    padding-top: 20px;
+    object-fit: contain;
+}
